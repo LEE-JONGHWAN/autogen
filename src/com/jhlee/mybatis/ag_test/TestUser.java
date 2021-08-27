@@ -8,7 +8,6 @@ import org.mybatis.spring.SqlSessionTemplate;
 public class TestUser implements TestDAO_IF  {
 	
 	private SqlSessionTemplate sqlSessionTemplate;
-	
 	public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
 		this.sqlSessionTemplate = sqlSessionTemplate;
 	}
